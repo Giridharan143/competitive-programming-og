@@ -16,3 +16,4 @@ if(case==0):
     print(namer.uppercase(input_name))
 if(case==1):
     print(namer.lowercase(input_name))
+
