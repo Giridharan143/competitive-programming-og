@@ -10,7 +10,7 @@ class caeser:
                 enc_text.append(out)
             else:
                 # Append non-alphabet characters unchanged
-                return enc_text.append(char)
+                enc_text.append(char)
         # Join all characters in enc_text to form the encrypted string
         return ''.join(enc_text)
     '''def encrypt(self,text,shift):
@@ -31,5 +31,6 @@ print("kindly enter the string to be encryted: ")
 string_inp=input("")
 shift = 3
 cs = caeser()
-print(cs.encrypt(string_inp,shift))
-print(cs.decrypt(string_inp,shift))
+enc_text=cs.encrypt(string_inp,shift)
+print(enc_text)
+print(cs.decrypt(enc_text,shift))
