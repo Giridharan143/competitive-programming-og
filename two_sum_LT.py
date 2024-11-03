@@ -14,7 +14,7 @@ class Solution:
             if balance in map:
                 return [map[balance],pos]
             map[val]=pos
-
+        
 
 
 nums=[2,7,11,15]
