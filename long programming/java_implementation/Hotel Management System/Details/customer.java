@@ -20,7 +20,7 @@ public class customer{
     }
 
     public void displayCustomer(){
-        System.out.println("The Name of the Customer is: "+ this.name+ "THE Phone No of the Customer is : "+this.phoneNo);
+        System.out.println("The Name of the Customer is: "+ this.name+ " The Phone No of the Customer is : "+this.phoneNo);
     }
 
 
