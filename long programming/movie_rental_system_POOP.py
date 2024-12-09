@@ -11,4 +11,4 @@ class Movie:
     def rent_movie(self):
         if self.is_available:
             self.is_available = False
-            print(f"Successfully Rented the Movie: {self.titl}")
+            print(f"Successfully Rented the Movie: {self.title}")

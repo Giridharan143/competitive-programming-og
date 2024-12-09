@@ -27,6 +27,7 @@ for left in range(0,n-3):
                 print(f"{a[left],a[mid],a[center],a[right]} = {x}")
                 flag=True
                 center+=1;right-=1
+                
             elif val <x:
                 center+=1
             elif val>x:

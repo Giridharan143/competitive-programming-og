@@ -15,7 +15,7 @@ def kth_element(k, nums1, nums2):
     n2 = len(nums2)
 
     if n1 > n2:
-        return self.kth_element(k, nums2, nums1)
+        return kth_element(k, nums2, nums1)
     
     less, more = max(0, n2 - k), min(k, n1)
 
