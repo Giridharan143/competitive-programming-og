@@ -20,16 +20,20 @@ public int getIngId(){
 }
 
 public String getIngName(){
-    return this.getIngName();
+    return this.ingName;
 }
-
+public void addi(){
+    this.ingId=12;
+    this.ingName="Giri";
+    ing.add(new Ingredients(this.ingId,this.ingName));
+}
 public void addIngredients(){
     System.out.println("Enter the Ingredient Id : ");
-    int a = inp.nextInt();
+    this.ingId = inp.nextInt();
     inp.nextLine();
     System.out.println("Enter the Ingredient Name : ");
-    String b =inp.nextLine();
-    ing.add(new Ingredients(a,b));
+    this.ingName =inp.nextLine();
+    ing.add(new Ingredients(this.ingId,this.ingName));
     System.out.println("The Ingredients have been added to the list !!");
 }
 
