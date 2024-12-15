@@ -13,6 +13,7 @@ class treeOrginal{
         linkedlist.viewLList();
         linkedlist.findTheDataFromLList(4);
         linkedlist.findTheDataFromLList(2);
+        linkedlist.getLastElement();
     }
 }
 class LinkedList{
@@ -30,8 +31,10 @@ class LinkedList{
 
 class LListCallerr{
     LinkedList head; // Just to get the Initial Position
+    LinkedList last;
     LListCallerr(){
         this.head=null; // default value to null        
+        
     }
 
 public void addLList(int a){
@@ -40,6 +43,7 @@ LinkedList temp = this.head;
 //LinkedList temp = this
 if(this.head==null){
     this.head=newNode;
+    this.last=newNode;
     System.out.println("First data : "+head.data+" is Updated !!!");
     return;
 }
@@ -48,6 +52,8 @@ while(temp.next!=null){
     temp=temp.next;
 }
 temp.next=newNode;
+//temp.next=this.last;
+this.last=newNode;
 System.out.println("Data : "+temp.next.data+" has been added !!");
 
 //}
@@ -85,5 +91,13 @@ public void findTheDataFromLList(int a){
     System.out.println("No !!! The data is not found !!!!");
 }
 
+public void getLastElement(){
+    if(this.last==null){
+        System.out.println("No elements in this List");
+    }
+    else{
+        System.out.println("The Last Element is : "+this.last.data);
+    }
+}
 
 }
