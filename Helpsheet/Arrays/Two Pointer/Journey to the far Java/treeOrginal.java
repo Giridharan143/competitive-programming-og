@@ -14,6 +14,10 @@ class treeOrginal{
         linkedlist.findTheDataFromLList(4);
         linkedlist.findTheDataFromLList(2);
         linkedlist.getLastElement();
+        linkedlist.addonemorenumber(linkedlist.getHead());
+        linkedlist.viewLList();
+        linkedlist.viewLList((linkedlist.reverseLinkedlist(linkedlist.getHead())));
+
     }
 }
 class LinkedList{
@@ -35,6 +39,9 @@ class LListCallerr{
     LListCallerr(){
         this.head=null; // default value to null        
         
+    }
+    public LinkedList getHead(){
+        return this.head;
     }
 
 public void addLList(int a){
@@ -72,6 +79,20 @@ public void viewLList(){
 
 }
 
+public void viewLList(LinkedList head){
+    LinkedList temp=head;
+    if(temp==null){
+        System.out.println("Linked List Empty !!!");
+    }
+    while(temp!=null){
+        System.out.print(temp.data+" -> ");
+        temp=temp.next;
+    }
+    System.out.println(" null");
+
+}
+
+
 public void findTheDataFromLList(int a){
     LinkedList temp = head;boolean found = false;
     if(temp==null){
@@ -100,4 +121,49 @@ public void getLastElement(){
     }
 }
 
+public void addonemorenumber(LinkedList head){
+    if(head==null){
+        System.out.println("Nothing is present !!");
+    }
+    else{
+        LinkedList temp=head;
+        while(temp!=null){
+            temp.data=temp.data*10;temp=temp.next;
+            
+
+        }
+    
+    }
+
+}
+
+public LinkedList reverseLinkedlist(LinkedList head){
+    LinkedList prev = null;
+    LinkedList next = null;
+    LinkedList temp = head;
+    if(temp==null){
+        System.out.println("Empty Linked List");
+    }
+    else{        
+        //LinkedList temp = head;
+        while(temp!=null){
+            // next=temp.next; // Normal movement of the Node
+            // temp.next=prev;
+            // prev=temp;
+            // temp=next;
+            next=temp.next;
+            temp.next=prev;
+            prev = temp;
+            temp=next;
+            
+        }
+    }
+    return prev;
+
+}
+
+
+}
+abstract class toBeImplemenred{
+    abstract void findTheEvenNoFromLL();
 }
