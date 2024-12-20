@@ -17,6 +17,7 @@ class treeOrginal{
         linkedlist.addonemorenumber(linkedlist.getHead());
         linkedlist.viewLList();
         linkedlist.viewLList((linkedlist.reverseLinkedlist(linkedlist.getHead())));
+        linkedlist.viewLList(linkedlist.findTheEvenNoFromLL(linkedlist.getHead()));
 
     }
 }
@@ -161,7 +162,21 @@ public LinkedList reverseLinkedlist(LinkedList head){
     return prev;
 
 }
-
+public LinkedList findTheEvenNoFromLL(LinkedList head){
+    LinkedList even =null;
+    if(head==null){
+        System.out.println("The LList is said to be Empty !!!");
+    }
+    else{
+        LinkedList temp = head;
+        while(temp.next!=null){
+            if(temp.data%2==0){
+                // even = temp;even.data=temp.data;                
+            }
+        }
+    }
+    return even;
+}
 
 }
 abstract class toBeImplemenred{
