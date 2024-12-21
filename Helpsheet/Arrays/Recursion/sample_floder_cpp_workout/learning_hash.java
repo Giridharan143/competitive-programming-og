@@ -16,7 +16,7 @@ public class learning_hash{
             else{
                 System.out.println("No it's not present");
             }
-            if(mapi.containsValue("31062125023")){
+            if(mapi.containsValue("310621205023")){
                 System.out.println("Yeah it's present");
             }
             else{ //310621205043  || 310621205006
