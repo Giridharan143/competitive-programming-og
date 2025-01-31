@@ -7,4 +7,3 @@ def first_pattern():
         print()
         comp+=1
 
-https://www.geeksforgeeks.org/leaders-in-an-array/
