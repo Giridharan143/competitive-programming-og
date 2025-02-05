@@ -52,9 +52,24 @@ class BST:
             print(root.data,end="->")
             self.printt(root.right)
 
+    def findValue(self,root,data):
+        if root is None:
+            print("Value is not found !!!")
+            return
+        if data==root.data:
+            print("Found !!")
+            return
+        if data<root.data:
+            return self.findValue(root.left,data)
+        elif data>root.data:
+            return self.findValue(root.right,data)
+        
+
 bst=BST(3)
 bst.insertion(bst.root,2)
 bst.insertion(bst.root,1)
 bst.insertion(bst.root,4)
 bst.insertion(bst.root,5)
 bst.printt(bst.root)
+print()
+bst.findValue(bst.root,40)
