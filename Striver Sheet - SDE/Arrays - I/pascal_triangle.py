@@ -20,5 +20,5 @@ class sample:
             matrix.append(temp_row)
         for i in range(len(matrix)):
             print(matrix[i])
-        return
+        return matrix
     secondApproach(5)
