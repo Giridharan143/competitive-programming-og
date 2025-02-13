@@ -55,8 +55,23 @@ class Dump:
     # nextP(arr)
 
 
-class Main:
-    def kadane_algo():
-        
-        
+class MaximumSubArray:
+    def kadane_algo(nums):
+        max_num=float('-inf')
+        curr = nums[0]
+        for idx in range(1,len(nums)):
+            curr=max(nums[idx],nums[idx]+curr)
+            max_num=max(max_num,curr)
+            print(max_num,end=" ")        
         return
+    
+    def kadane_algo1(nums):
+        n=len(nums)
+        maxi=float('-inf')
+        curr=nums[0]
+        for idx in range(1,n):
+            curr=max(nums[idx],curr+nums[idx])
+            maxi=max(maxi,curr)
+        return maxi   
+
+    kadane_algo1([5,4,-1,7,8])
