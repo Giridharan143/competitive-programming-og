@@ -1,0 +1,9 @@
+ // System.out.println();
+        // triangle(1);
+        // System.out.println();
+        // triangle(2);
+        // System.out.println();
+        // triangle(3);
+        // System.out.println();
+        // triangle(4);
+        // System.out.println();
