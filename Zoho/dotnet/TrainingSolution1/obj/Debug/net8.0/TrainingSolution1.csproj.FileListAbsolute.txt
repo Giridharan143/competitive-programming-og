@@ -1,0 +1,15 @@
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\bin\Debug\net8.0\TrainingSolution1.exe
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\bin\Debug\net8.0\TrainingSolution1.deps.json
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\bin\Debug\net8.0\TrainingSolution1.runtimeconfig.json
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\bin\Debug\net8.0\TrainingSolution1.dll
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\bin\Debug\net8.0\TrainingSolution1.pdb
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\obj\Debug\net8.0\TrainingSolution1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\obj\Debug\net8.0\TrainingSolution1.AssemblyInfoInputs.cache
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\obj\Debug\net8.0\TrainingSolution1.AssemblyInfo.cs
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\obj\Debug\net8.0\TrainingSolution1.csproj.CoreCompileInputs.cache
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\obj\Debug\net8.0\TrainingSolution1.sourcelink.json
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\obj\Debug\net8.0\TrainingSolution1.dll
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\obj\Debug\net8.0\refint\TrainingSolution1.dll
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\obj\Debug\net8.0\TrainingSolution1.pdb
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\obj\Debug\net8.0\TrainingSolution1.genruntimeconfig.cache
+C:\Training-Back-again\Zoho\dotnet\TrainingSolution1\obj\Debug\net8.0\ref\TrainingSolution1.dll
