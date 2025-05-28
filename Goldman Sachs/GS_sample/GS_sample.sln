@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GS_sample", "GS_sample.pyproj", "{E7A4DDB9-A5EA-4FA5-A5CC-59F8A840CCF8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "dump", "..\dump\dump.pyproj", "{48E8E217-BDC2-431F-AC0A-7C7969F3E171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7A4DDB9-A5EA-4FA5-A5CC-59F8A840CCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A4DDB9-A5EA-4FA5-A5CC-59F8A840CCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E8E217-BDC2-431F-AC0A-7C7969F3E171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E8E217-BDC2-431F-AC0A-7C7969F3E171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCE5F334-1636-4C39-B11B-BAA844514888}
+	EndGlobalSection
+EndGlobal

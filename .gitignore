@@ -1,0 +1,21 @@
+# Build results
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.db
+*.pdb
+
+# Angular & Node
+node_modules/
+dist/
+.env
+
+# Logs and coverage
+*.log
+coverage/
+
+# macOS
+.DS_Store
